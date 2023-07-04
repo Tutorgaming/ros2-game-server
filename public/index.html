@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Server Side</title>
+    <body>
+        <h1>Referee Controller</h1>
+        <textarea id="output" rows="4" cols="50" placeholder="Output from Server"></textarea>
+        <br><hr>
+        <form>
+            <textarea id="message" rows="1" cols="50" placeholder="Enter Command Here"></textarea>
+            <br>
+            <button id="send" type="button"">Send Command</button>
+            <button type="button" onclick="clearTextArea()">Clear</button>
+        </form>
+        <!-- Text area to show command from server , Fix Width -->
+        <!-- Text Area to Write Command to Server -->
+        <!-- Button to Send the Command to Server -->
+        <!-- Button to Clear the Text Area -->
+    </body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Include Socket io 4 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="./index.js" type="text/javascript"></script>
+</html>
